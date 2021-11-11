@@ -1,0 +1,129 @@
+.top 
+{
+    background: #F5848C;
+    line-height: 45px;
+}
+.social ul 
+{
+    list-style: none;
+    padding: 0;
+}
+.social ul li 
+{
+    display: inline;
+}
+.social ul li a 
+{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-right: 1px solid #eee;
+   
+}
+.social ul li:first-child a
+{
+    border-left: 1px solid #eee;
+}
+.social ul li a span 
+{
+    display: none;
+}
+.social ul li:hover a span 
+{
+    display:inline-block
+}
+.social a[href*="facebook.com"]:hover
+{
+    background: blue;
+}
+.info ul li 
+{
+    display: inline;
+    color: #fff;
+}
+.search input,.search select, .search button
+{
+    border-radius: 0;
+    border: 2px solid rgb(214, 208, 208);
+}
+.navbar-light .navbar-nav .nav-link
+{
+    padding: 10px 20px;
+    border-right: 1px solid #ccc;
+}
+.navbar-light .navbar-nav .nav-link:hover 
+{
+    background: #f5848c;
+}
+.navbar-light .navbar-brand
+{
+    background: #f5848c;
+    padding: 10px 10px;
+    width: 260px;
+    color: #Fff;
+}
+.title 
+{
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+    color: red;
+}
+.owl-nav
+{
+    position: absolute;
+    top: -40px;
+    right: 0px;
+}
+.owl-prev, .owl-next
+{
+    width: 35px;
+    height: 35px;
+    background: red !important;
+    color: #fff !important;
+    margin: 0px 2px;
+}
+.product h2 
+{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.pcontent
+{
+    display: none;
+}
+.product:hover .pcontent 
+{
+    display: block;
+}
+.product:hover
+{
+ box-shadow: 0px 0px 3px #ccc;
+ padding: 10px;
+ transform: scale(1.2);
+}
+.product
+{
+    transition: 0.9s;
+}
+.brand 
+{
+    background: #fbfbfb;
+    padding: 30px;
+}
+.brand img 
+{
+    width: auto;
+}
+footer
+{
+    background: #F5848C;
+    padding: 50px 0;
+}
+@media(max-width: 500px)
+{
+#myTabContent .col 
+{
+    flex: auto;
+}
+}
